@@ -1,5 +1,68 @@
 @charset "UTF-8";
 
-body{
-    background-color: lightblue;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 30px;
+}
+
+header a, footer a{
+    color: rgba(255, 255, 255, 0.79);
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 40px;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(76, 76, 76);
+    color: white;
+}
+
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.18);
+    width: 400px;
+}
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
